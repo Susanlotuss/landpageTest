@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
 
 * {
     background-color: whitesmoke;
-    
+    margin: 1.5%;
 }
 body {
     font-family: inter;
-    font-size: 8px;
     width:80%;
     margin-top: 40px;
     margin-left:auto;
@@ -20,11 +20,38 @@ body {
 }
 .container {
     margin: 15px;
+    font-weight: bolder;
 }
 .logo {
     border-radius: 50%;
     float: left;
-    margin-right: 25px;
+    margin-right: 18px;
     margin-bottom: 8px;
     margin-top: 0%;
 }
+.userInfo h2 {
+    padding-top: 6px;
+    font-size: 9px;
+    font-weight: bolder;
+}
+.userInfo h3 {
+    font-weight: lighter;
+    font-size: 8px;
+}
+.content {
+    font-size: 10px;
+    font-family: inter;
+    text-align: justify;
+    padding: 5px;
+    margin: 5px;
+}
+#likeAnimation {
+    cursor: pointer;
+}
+#likeAnimation:hover {
+    color: red;
+}
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
